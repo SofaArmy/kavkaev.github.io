@@ -1,0 +1,135 @@
+* {
+    outline: 0px solid #00ffaa;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+body {
+    background-color: #222222;
+    color: #ffffff;
+    user-select: none;
+}
+
+header {
+    margin-top: 30px;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+section.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 60px;
+}
+
+.menu {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.icon {
+    max-width: 180px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.header {
+    display: flex;
+    margin-top: 30px;
+}
+
+.text-header {
+    justify-content: flex-start;
+    padding-top: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+.rocket {
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+a.btn {
+    color: #000000;
+    text-decoration: none;
+    background: #ffcc00;
+    padding: 10px;
+    outline: none;
+}
+
+.btn:active {
+    background-color: #ddaa00;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #131313;
+    color: #ffffff;
+}
+
+.advantage {
+    width: 300px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.map {
+    margin: 50px;
+    width: 440px;
+    height: 346px;
+    justify-content: flex-start;
+}
+
+.text-main {
+    margin: 50px;
+    justify-content: flex-end;
+    width: 800px;
+    color: #000000;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+a.button-form {
+    color: #ffffff;
+    text-decoration: none;
+    background: #000000;
+    padding: 10px;
+    outline: none;
+}
+
+.button-form:active {
+    background-color: #222222;
+}
+
+.form {
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 30px;
+}
